@@ -1,7 +1,3 @@
-import sys
-sys.stdin = open('input.txt','r')
-sys.stdout = open('output.txt','w')
-#
 def winner(n,lst):
     turn,i = 0,0
     for i in range(n):
